@@ -1,0 +1,169 @@
+.hero-video-section{
+    max-width: 100%;
+    height:auto;
+    width:25rem;
+    border-radius: 1rem;
+    
+
+}
+
+.hero-section{
+    padding:5rem 0 10rem 0;
+}
+
+body::before{
+    height: 56px;
+    display: block;
+    content: '';
+}
+
+
+
+
+@media (max-width:768px){
+    .hero-video-section{
+       
+        width:20rem;
+        
+        
+    
+    }
+}
+
+
+.lord-icon
+{
+    border-radius: 50%;
+    border:1px solid black;
+    background-color: antiquewhite;
+}
+
+
+.icon-span
+{
+    width:2.5rem;
+    height:2.5rem;
+    background-color:aquamarine;
+    text-align:inherit;
+   
+
+}
+
+.card-box:hover
+{
+    box-shadow:#e4e4e4 0 3px 10px;}
+/* .bg-maon
+{
+    position:relative;
+} */
+
+.form-section
+{
+    width:50%;
+}
+footer
+{
+    background-color: #232135;
+}
+
+.more-info-section
+{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("/img/11742773_954310264625315_5282556307091710364_n.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+.more-info-section .img-section
+{
+    position: relative;
+}
+
+
+.more-info-section .img-section img
+{
+    position: absolute;
+}
+
+
+.carousel .card
+{
+    background-color:#232135;
+    color:#fff;
+   
+    transition: all 0.5 linear;
+
+    
+}
+
+.carousel .card:hover
+{
+    color:#232135;
+    background-color:#fff;
+    transition: all 0.3s linear;
+    
+
+
+}
+
+
+.carousel-indicators
+{
+    bottom:-20%;
+}
+.bg-main
+{
+    position: relative;
+    height: 100%;
+
+}
+.custom-shape-divider-bottom-1702291548 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1702291548 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 107px;
+}
+
+.custom-shape-divider-bottom-1702291548 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+
+
+.custom-shape-divider-top-1702660690 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    position: relative;
+}
+
+.custom-shape-divider-top-1702660690 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1702660690 .shape-fill {
+    fill: #FFFFFF;
+}
+
